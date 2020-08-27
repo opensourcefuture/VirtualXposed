@@ -53,7 +53,6 @@ public class ShortcutServiceStub extends BinderInvocationProxy {
         addMethodProxy(new ReplaceCallingPkgMethodProxy("getMaxShortcutCountPerActivity"));
         addMethodProxy(new ReplaceCallingPkgMethodProxy("reportShortcutUsed"));
         addMethodProxy(new ReplaceCallingPkgMethodProxy("onApplicationActive"));
-        addMethodProxy(new ReplaceCallingPkgMethodProxy("removeAllDynamicShortcuts"));
 
         addMethodProxy(new ReplaceCallingPkgMethodProxy("getPinnedShortcuts"));
         addMethodProxy(new ReplacePkgAndShortcutMethodProxy("requestPinShortcut"));
